@@ -14,6 +14,7 @@
 		1CF888642208D3C700F98C94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF888622208D3C700F98C94 /* LaunchScreen.storyboard */; };
 		1CF8886F2208D3C700F98C94 /* TippedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF8886E2208D3C700F98C94 /* TippedTests.swift */; };
 		1CF8887A2208D3C800F98C94 /* TippedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF888792208D3C800F98C94 /* TippedUITests.swift */; };
+		1CF8888A22090E9300F98C94 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF8888922090E9300F98C94 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1CF888752208D3C800F98C94 /* TippedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TippedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF888792208D3C800F98C94 /* TippedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippedUITests.swift; sourceTree = "<group>"; };
 		1CF8887B2208D3C800F98C94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CF8888922090E9300F98C94 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				1CF8885B2208D3C500F98C94 /* ViewController.swift */,
 				1CF8885D2208D3C500F98C94 /* Main.storyboard */,
 				1CF888602208D3C700F98C94 /* Assets.xcassets */,
+				1CF8888922090E9300F98C94 /* SettingsViewController.swift */,
 				1CF888622208D3C700F98C94 /* LaunchScreen.storyboard */,
 				1CF888652208D3C700F98C94 /* Info.plist */,
 			);
@@ -258,6 +261,7 @@
 			files = (
 				1CF8885C2208D3C500F98C94 /* ViewController.swift in Sources */,
 				1CF8885A2208D3C500F98C94 /* AppDelegate.swift in Sources */,
+				1CF8888A22090E9300F98C94 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

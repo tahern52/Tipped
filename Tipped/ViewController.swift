@@ -14,10 +14,20 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var tipSlider: UISlider!
     @IBOutlet weak var totalLabel: UILabel!
+    let defaults = UserDefaults.standard
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        defaults.set(1, forKey: "defaultTipIndex")
+        defaults.synchronize()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        // This is a good place to retrieve the default tip percentage from UserDefaults
+        // and use it to update the tip amount
+        tipSlider.value = defaults.float(forKey: "defaultTipIndex")
     }
 
     @IBAction func onTap(_ sender: Any) {
