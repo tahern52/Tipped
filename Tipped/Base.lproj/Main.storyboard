@@ -73,7 +73,7 @@
                                 <rect key="frame" x="28" y="92" width="320" height="180"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="right" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" placeholder="0.00" textAlignment="right" adjustsFontForContentSizeCategory="YES" minimumFontSize="30" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="g2t-Yp-3yf">
+                                    <textField opaque="NO" contentMode="right" fixedFrame="YES" highlighted="YES" selected="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" placeholder="0.00" textAlignment="right" adjustsFontForContentSizeCategory="YES" minimumFontSize="30" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="g2t-Yp-3yf">
                                         <rect key="frame" x="19" y="36" width="283" height="110"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

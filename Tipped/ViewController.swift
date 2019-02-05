@@ -21,6 +21,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         defaults.set(1, forKey: "defaultTipIndex")
         defaults.synchronize()
+        
+        billField.becomeFirstResponder()
     }
     
     override func viewWillAppear(_ animated: Bool) {
